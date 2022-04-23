@@ -1,0 +1,25 @@
+:root {
+  --white: #fff;
+  --gray1: #a9a9a9;
+  --gray2: #828282;
+  --dark: #181719;
+  --black: #000000;
+
+  --fontBase: "montserrat", sans-serif;
+  --fontAux: "lora", sans-serif;
+
+  --headline1: 500 3rem / 61.44px var(--fontAux);
+  --headline2: 500 2.25rem / 46.08px var(--fontAux);
+  --headline3: 700 1.5rem / 30.72px var(--fontAux);
+  --headline4: 500 1.125rem / 23.04px var(--fontAux);
+
+  --medium: 400 1.5rem / 29.26px var(--fontBase);
+  --normal: 400 0.875rem / 17.07px var(--fontBase);
+  --normal-bold: 700 0.875rem / 17.07px var(--fontBase);
+  --normal-semibold: 500 0.875rem / 17.07px var(--fontBase);
+  --small-semibold: 500 0.75rem / 14.63px var(--fontBase);
+  --smaller-semibold: 500 0.625rem / 12.19px var(--fontBase);
+
+  --link1: 700 1.125rem / 21.94px var(--fontBase);
+  --link2: 700 0.875rem / 17.07px var(--fontBase);
+}
