@@ -1,0 +1,29 @@
+.card {
+  padding: 7.32px 71px 25px 19px;
+  max-width: 300px;
+  background: var(--dark);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+}
+.card * {
+  margin: 0;
+}
+.card__blockquote {
+  max-width: 210px;
+}
+.card__text {
+  font: var(--headline4);
+  color: var(--white);
+}
+@media (min-width: 768px) {
+  .card__blockquote {
+    max-width: 287px;
+  }
+  .card__text {
+    font: var(--headline3);
+  }
+  .card {
+    padding: 10px 97px 34px 26px;
+    max-width: 410px;
+  }
+}

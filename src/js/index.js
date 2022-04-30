@@ -1,5 +1,6 @@
-import "../css/menu-item.css";
+// utilidades
 import "../css/fonts.css";
 import "../css/variables.css";
-
-import "../css/card.css";
+// archivos
+import "../css/mole-card.css";
+import "../css/atom-author.css";
