@@ -4,9 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Interior Consultant</title>
   </head>
   <body>
-    <p>test</p>
+    <article class="card">
+      <figcaption class="author">
+        <figure class="author__image">
+          <img
+            src="./assets/images/author-1x.png"
+            srcset="
+              ./assets/images/author-1x.png 360w,
+              ./assets/images/author-2x.png 720w
+            "
+            height="50"
+            width="50"
+            alt="Aliza Webber photo"
+            aria-label="Aliza Webber photo"
+          />
+        </figure>
+        <div class="author__content">
+          <p class="author__name">Aliza Webber</p>
+          <p class="author__charge">Interior designer</p>
+        </div>
+      </figcaption>
+      <blockquote class="card__blockquote">
+        <p class="card__text">Designed in 2020 by Aliza Webber</p>
+      </blockquote>
+    </article>
   </body>
 </html>
